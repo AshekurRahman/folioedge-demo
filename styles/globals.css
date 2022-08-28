@@ -20,6 +20,18 @@ body {
   height: 100%;
 }
 
+body {
+  font-family: 'satoshi';
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "recoleta";
+  font-weight: 700;
+}
+
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
@@ -463,6 +475,24 @@ th {
   background-color: #919EA1;
 }
 
-.swiper-container-fade.swiper-container-free-mode .swiper-slide:not(.swiper-slide-active) {
-  opacity: 0 !important;
+/* ======= RooT-Variable ======= */
+:root {
+  --mobile-start: 768px; 
+
+
+  --navbar-height: 100px;
+
+  --bg-primary: #3CC3A3;
+  --bg-primary-dark: #2ca085;
+}
+
+/* ======= Template-CSS ======= */
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: var(--bg-primary);
+}
+
+::selection {
+  color: #ffffff;
+  background: var(--bg-primary);
 }
