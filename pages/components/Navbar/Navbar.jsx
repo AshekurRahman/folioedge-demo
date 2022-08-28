@@ -4,6 +4,7 @@ import Link from 'next/link'
 import styles from './Navbar.module.css'
 import Logo from './images/logo-light.svg'
 import { MdMenuOpen,MdClose } from 'react-icons/md';
+import Icon from '../../common/Icon/Icon'
 
 
 const Navbar = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className={styles._action} >
-            <Link href='/' ><span className={`btn btn-primary`}>Purchase Now</span></Link>
+            <Link href='/' ><span className={`btn btn-primary`}><Icon name={`ic-envato`} className={styles._icon} />Purchase Now</span></Link>
             <button onClick={() => setIsMobileMenu(!isMobileMenu)} className={`${styles._toggle} btn btn-none`} ><MdMenuOpen /></button>
           </div>
         </div>
