@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Header from './components/Header/Header'
 import Navbar from './components/Navbar/Navbar'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles._wrapper}>
       <Head>
         <title>Folioedge - Demo Panel</title>
         <meta name="description" content="Folioedge is a personal portfolio website wordpress theme" />
@@ -14,20 +15,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <Navbar />
+        <Header />
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   )
 }

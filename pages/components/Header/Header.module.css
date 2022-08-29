@@ -1,0 +1,66 @@
+._main_area {
+    position: relative;
+    z-index: 1;
+    min-height: calc(100vh - 100px);
+    padding: 150px 0 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url(./Images/header-bg.png) no-repeat scroll left bottom / 80vw auto;
+}
+
+._title {
+    margin-bottom: 1.4rem;
+    font-size: 3.5rem;
+}
+
+._sub_title {
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+}
+
+._image1,
+._image2,
+._image3,
+._image4,
+._image5,
+._image6 {
+    position: absolute;
+    z-index: -1;
+    max-width: 20vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    line-height: 0;
+}
+
+._image1 {
+    left: 50%;
+    bottom: -80px;
+    transform: translateX(-50%);
+    max-width: 36vw;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+._image2 {
+    left: -4vw;
+    bottom: 50vh;
+}
+
+._image3 {
+    left: 8vw;
+    bottom: 16vh;
+    max-width: 16vw;
+}
+
+._image4 {
+    right: -4vw;
+    bottom: 50vh;
+}
+
+._image5 {
+    right: 8vw;
+    bottom: 16vh;
+    max-width: 16vw;
+}
