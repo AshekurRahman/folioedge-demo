@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Header from './components/Header/Header'
-import Navbar from './components/Navbar/Navbar'
+import Demos from './pages/Home/Demos/Demos'
+import Header from './pages/Home/Header/Header'
+import InnterPages from './pages/Home/InnterPages/InnterPages'
+import Navbar from './pages/Home/Navbar/Navbar'
+import Responsive from './pages/Home/Responsive/Responsive'
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <Header />
+        <Demos />
+        <InnterPages />
+        <Responsive />
       </main>
     </div>
   )

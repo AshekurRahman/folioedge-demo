@@ -1,0 +1,9 @@
+._area {
+    width: 100%;
+    padding: 100px 0;
+}
+
+._area ._sc_title {
+    text-align: left;
+    margin-bottom: 0;
+}
