@@ -11,6 +11,7 @@
     transition: 0.5s;
     transform: rotate(0deg);
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 ._demo_item:hover {
