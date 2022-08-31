@@ -1,6 +1,7 @@
 ._area {
     width: 100%;
     padding: 100px 0;
+    background: azure url('./images/backgroiund.png') no-repeat left -10vw bottom / auto;
 }
 
 ._area ._sc_title {

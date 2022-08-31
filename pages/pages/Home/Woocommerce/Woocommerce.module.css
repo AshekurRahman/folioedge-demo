@@ -1,0 +1,14 @@
+._area {
+    width: 100%;
+    padding: 100px 0;
+    background: url('./images/background.png') no-repeat scroll center right 10% / auto;
+}
+
+._area ._sc_title {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+._image {
+    margin-bottom: -60px;
+}

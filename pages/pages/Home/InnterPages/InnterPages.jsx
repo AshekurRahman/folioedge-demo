@@ -61,7 +61,7 @@ const InnterPages = () => {
                 },
                 "1200": {
                   slidesPerView: 4,
-                  spaceBetween: 30,
+                  spaceBetween: 40,
                 },
               }}
               className="mySwiper"

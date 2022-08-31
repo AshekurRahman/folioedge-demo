@@ -33,27 +33,29 @@ const Header = () => {
             </div>
         </div>
         <div className={styles._images}>
-          <div className={styles._image1} style={{transform: `translate(-${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(-${offsetY * 0.04}deg)`}} >
-            <Image src={image1} width={`580px`} height={`374px`} />
-          </div>
-          <div className={styles._image2} style={{transform: `translate(-${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(-${offsetY * 0.04}deg)`}} >
-            <Image src={image2} width={`580px`} height={`374px`} />
-          </div>
-          <div className={styles._image3} style={{transform: `translate(-${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(-${offsetY * 0.04}deg)`}} >
-            <Image src={image3} width={`580px`} height={`374px`} />
-          </div>
-          <div className={styles._image4} style={{transform: `translate(${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(${offsetY * 0.04}deg)`}} >
-            <Image src={image4} width={`580px`} height={`374px`} />
-          </div>
-          <div className={styles._image5} style={{transform: `translate(${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(${offsetY * 0.04}deg)`}} >
-            <Image src={image5} width={`580px`} height={`374px`} />
-          </div>
-          <div className={styles._image6} style={{transform: `translate(${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(${offsetY * 0.04}deg)`}} >
-            <Image src={image6} width={`580px`} height={`374px`} />
-          </div>
-          <div className={styles._image7} >
-            <div style={{transform: `translateY(-${offsetY * 0.1}px)`}} >
-              <Image src={image7} width={`831px`} height={`471px`} />
+          <div className={`${styles._imagecon} container`}>            
+            <div className={styles._image1} style={{transform: `translate(-${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(-${offsetY * 0.04}deg)`}} >
+              <Image src={image1} width={`580px`} height={`374px`} />
+            </div>
+            <div className={styles._image2} style={{transform: `translate(-${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(-${offsetY * 0.04}deg)`}} >
+              <Image src={image2} width={`580px`} height={`374px`} />
+            </div>
+            <div className={styles._image3} style={{transform: `translate(-${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(-${offsetY * 0.04}deg)`}} >
+              <Image src={image3} width={`580px`} height={`374px`} />
+            </div>
+            <div className={styles._image4} style={{transform: `translate(${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(${offsetY * 0.04}deg)`}} >
+              <Image src={image4} width={`580px`} height={`374px`} />
+            </div>
+            <div className={styles._image5} style={{transform: `translate(${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(${offsetY * 0.04}deg)`}} >
+              <Image src={image5} width={`580px`} height={`374px`} />
+            </div>
+            <div className={styles._image6} style={{transform: `translate(${offsetY * 0.2}px, -${offsetY * 0.2}px) rotate(${offsetY * 0.04}deg)`}} >
+              <Image src={image6} width={`580px`} height={`374px`} />
+            </div>
+            <div className={styles._image7} >
+              <div style={{transform: `translateY(-${offsetY * 0.1}px)`}} >
+                <Image src={image7} width={`831px`} height={`471px`} />
+              </div>
             </div>
           </div>
         </div>

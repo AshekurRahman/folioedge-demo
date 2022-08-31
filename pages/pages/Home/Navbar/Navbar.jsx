@@ -16,19 +16,21 @@ const Navbar = () => {
           <div className={styles._logo} >
             <Link href='/home'><Image src={Logo} alt="Vercel Logo" width={193} height={42} /></Link>
           </div>
-          <div className={styles._menu} >
+          <div className={styles._navright}>
             <button onClick={() => setIsMobileMenu(!isMobileMenu)} className={`${styles._toggle} btn btn-none`} ><MdClose /></button>
-            <ul>
-              <li><Link href='/'>Intro</Link></li>
-              <li><Link href='/'>Demos</Link></li>
-              <li><Link href='/'>Documentation</Link></li>
-              <li><Link href='/'>Support</Link></li>
-            </ul>
+            <div className={styles._menu} >
+              <ul>
+                <li><Link href='/'>Intro</Link></li>
+                <li><Link href='/'>Demos</Link></li>
+                <li><Link href='/'>Documentation</Link></li>
+                <li><Link href='/'>Support</Link></li>
+              </ul>
+            </div>
+            <div className={styles._action} >
+              <Link href='/' ><span className={`btn btn-primary`}><Icon name={`ic-envato`} className={styles._icon} />Purchase Now</span></Link>
+            </div>
           </div>
-          <div className={styles._action} >
-            <Link href='/' ><span className={`btn btn-primary`}><Icon name={`ic-envato`} className={styles._icon} />Purchase Now</span></Link>
-            <button onClick={() => setIsMobileMenu(!isMobileMenu)} className={`${styles._toggle} btn btn-none`} ><MdMenuOpen /></button>
-          </div>
+          <button onClick={() => setIsMobileMenu(!isMobileMenu)} className={`${styles._toggle} btn btn-none`} ><MdMenuOpen /></button>
         </div>
       </div>
     </div>
