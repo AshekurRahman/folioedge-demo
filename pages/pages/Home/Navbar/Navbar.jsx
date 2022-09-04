@@ -20,10 +20,10 @@ const Navbar = () => {
             <button onClick={() => setIsMobileMenu(!isMobileMenu)} className={`${styles._toggle} btn btn-none`} ><MdClose /></button>
             <div className={styles._menu} >
               <ul>
-                <li><Link href='/'>Intro</Link></li>
-                <li><Link href='/'>Demos</Link></li>
-                <li><Link href='/'>Documentation</Link></li>
-                <li><Link href='/'>Support</Link></li>
+                <li><Link href='#demosection'>Demos</Link></li>
+                <li><Link href='#innerpages'>Inner Pages</Link></li>
+                <li><Link href='http://polothemes.com/docs/folioedge'>Documentation</Link></li>
+                <li><Link href='mailto:ashekurrahman1@gmail.com'>Support</Link></li>
               </ul>
             </div>
             <div className={styles._action} >

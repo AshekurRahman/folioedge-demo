@@ -38,7 +38,7 @@ import image25 from './images/inner-25.jpg'
 
 const InnterPages = () => {
   return (
-    <div className={styles._area}>
+    <div className={styles._area} id="innerpages">
       <div className="container">
           <div className="row justify-content-center">
               <div className="col-lg-7">

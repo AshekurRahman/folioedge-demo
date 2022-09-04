@@ -11,7 +11,7 @@ import image6 from './images/home_6.jpg';
 
 const Demos = () => {
   return (
-    <div className={styles._area}>
+    <div className={styles._area} id="demosection">
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-lg-7">

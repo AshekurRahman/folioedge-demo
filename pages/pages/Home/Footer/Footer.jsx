@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './Footer.module.css'
 import logo from './images/logo.png';
+import Icon from '../../../common/Icon/Icon';
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
                     <Image src={logo} alt="" width="386px" height="84px" />
                 </div>
                 <h2 className={styles._title}>Purchase Maruncy &amp; Build Your Awesome Website Now</h2>
-                <Link href="/" ><span className='btn btn-primary'>Purchase Now</span></Link>
+                <Link href="/" ><span className='btn btn-primary'><Icon name={`ic-envato`} className={styles._icon} /> Purchase Now</span></Link>
             </div>
            </div>
         </div>
